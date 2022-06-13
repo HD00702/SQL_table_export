@@ -91,10 +91,6 @@ class TableFrame(wx.Frame):
         save_Btn = wx.Button(panel, 0, "Save selected", pos=(150, 500))
         save_Btn.Bind(wx.EVT_BUTTON, self.SaveClick)
 
-    # def SaveClick(self, event):
-    #    query = pdsql.read_sql('select* from KEYWORDS', self.connect)
-    #    query.to_csv(r'E:\python\pythonProject\KEYWORDS.csv', index=False,sep=',')
-    #    print('Saved')
 
     def SaveClick(self, event):
 
