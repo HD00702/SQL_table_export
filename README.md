@@ -11,4 +11,4 @@ database=
 user=
 password=
 
-After 
+After selecting which tables to save, use the Save button to save it to the .py/.exe files current folder.
